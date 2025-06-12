@@ -80,7 +80,12 @@ int main()
 
 // NO ENTRY MADE
         else {
-            cout << "No entries were made." << endl;
+            cout << "**************************************"
+            << "\n            OUTPUT SUMMARY            "
+            << "\n**************************************"
+            << "\n         No entries were made         "
+            << "\n**************************************"
+            << endl;
         }
         return 0;  
 }
